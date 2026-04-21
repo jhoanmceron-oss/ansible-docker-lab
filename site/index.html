@@ -1,5 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head><title>Servidor Nginx</title></head>
-<body><h1>¡Hola desde Ansible!</h1></body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Mundo - Docker</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .card {
+      text-align: center;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 60px 80px;
+      backdrop-filter: blur(10px);
+    }
+    .emoji { font-size: 64px; margin-bottom: 20px; }
+    h1 { font-size: 48px; font-weight: 700; margin-bottom: 12px; }
+    p { font-size: 18px; color: #a0aec0; margin-bottom: 30px; }
+    .badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .badge {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50px;
+      padding: 8px 20px;
+      font-size: 14px;
+    }
+    .badge span { margin-right: 6px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">🐳</div>
+    <h1>Hola Mundo</h1>
+    <p>Aplicación web ejecutándose desde Docker</p>
+    <div class="badges">
+      <div class="badge"><span></span> GitHub Actions</div>
+      <div class="badge"><span></span> Docker Hub</div>
+      <div class="badge"><span></span> Render.com</div>
+    </div>
+  </div>
+</body>
 </html>
